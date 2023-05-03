@@ -46,14 +46,25 @@ body {
   content: "";
 }
 
+arlo_tm_button{
+  border-color: #FF9000;
+}
+arlo_tm_button{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  outline: none;
+  box-shadow: none;
+}
 a {
-   background-color: #FF9000;
+  color: #FF9000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: white;
+  color: #ff9b1a;
   outline: none;
   text-decoration: none;
 }
